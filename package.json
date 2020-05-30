@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "gridsome": "^0.7.0",
-    "gridsome-plugin-i18n": "^1.2.2"
+    "gridsome-plugin-i18n": "daaru00/gridsome-plugin-i18n#fix/duplicated-path"
   }
 }

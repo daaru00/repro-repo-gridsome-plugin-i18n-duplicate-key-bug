@@ -1,8 +1,20 @@
 <template>
   <div>
     <h1>
-      {{ $page.product.name }}
+      {{ $t($page.product.name) }}
     </h1>
+    <h2>
+      Context:
+    </h2>
+    <pre>
+      {{ JSON.stringify($context) }}
+    </pre>
+    <h2>
+      Route meta:
+    </h2>
+    <pre>
+      {{ $route.meta }}
+    </pre>
   </div>
 </template>
 
